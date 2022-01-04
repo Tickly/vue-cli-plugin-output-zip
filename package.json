@@ -1,0 +1,35 @@
+{
+  "name": "vue-cli-plugin-output-zip",
+  "version": "1.0.0",
+  "description": "modify build command,to build a zip file.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:watch": "tsc -w",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tickly/vue-cli-plugin-output-zip.git"
+  },
+  "keywords": [
+    "zip",
+    "compress",
+    "build",
+    "vue-cli-plugin"
+  ],
+  "author": "Tickly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tickly/vue-cli-plugin-output-zip/issues"
+  },
+  "homepage": "https://github.com/Tickly/vue-cli-plugin-output-zip#readme",
+  "devDependencies": {
+    "@types/archiver": "^5.1.1",
+    "@vue/cli-service": "^4.5.15",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "archiver": "^5.3.0"
+  }
+}
